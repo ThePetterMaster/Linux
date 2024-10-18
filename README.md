@@ -88,3 +88,20 @@ cat arquivo?.txt
 ````
 cat arquivo*.txt
 ````
+
+## Alterando nome arquivo mensagem para bemvindo
+
+````
+mv mensagem.txt bemvindo.txt
+````
+
+## Copiando conteúdo de um arquivo mensagem para bemvindo
+
+````
+cp mensagem.txt bemvindo.txt
+````
+
+## Copiando arquivos de um diretório para outro junto com os arquivos dentro dele
+````
+cp -r projetos-java projetos-c#
+````
