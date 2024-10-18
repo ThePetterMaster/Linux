@@ -27,6 +27,15 @@ cat bemvindo.txt
 ````
 man ls
 ````
+## Nome do usuário do linux
+
+````
+whoami
+````
+Resultado:
+````
+wsl
+````
 
 - pwd: para descobrir o diretório atual.
 - ls: para listar arquivos e diretórios, vimos as opções -l e -la, que listam além dos arquivos e diretórios ocultos, informações extras sobre cada um deles.
