@@ -64,4 +64,27 @@ mkdir projetos-java
 - man para consultar o manual sobre determinado comando.
 - setas para cima e para baixo para navegador no histórico de comandos do terminal.
 
-  
+## Remover diretório vazio
+
+````
+rmdir projetos-java
+````
+
+## Remover diretório com arquivos e pastas
+
+````
+rm -r workspace/
+````
+## Ver conteúdo de nome arquivo com SOMENTE uma letra/número a mais
+
+Pode aparecer mais de um arquivo.
+
+````
+cat arquivo?.txt
+````
+
+## Ver conteúdo de arquivos que começem com "arquivo"
+
+````
+cat arquivo*.txt
+````
