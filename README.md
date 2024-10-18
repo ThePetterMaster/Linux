@@ -101,6 +101,12 @@ mv mensagem.txt bemvindo.txt
 cp mensagem.txt bemvindo.txt
 ````
 
+## Compactando arquivos de um diretórios
+
+````
+zip -r work.zip workspace/
+````
+
 ## Copiando arquivos de um diretório para outro junto com os arquivos dentro dele
 ````
 cp -r projetos-java projetos-c#
