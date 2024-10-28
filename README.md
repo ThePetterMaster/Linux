@@ -170,4 +170,32 @@ Mais verboso:
 tar -vxzf work.tar.gz
 ````
 
+## Ler 10 primeiras linhas de um arquivo
 
+````
+head google.txt
+````
+
+## Ler 3 primeiras linhas de um arquivo
+
+````
+head -n 3 google.txt
+````
+
+## Ler 10 ultimas linhas de um arquivo
+
+````
+tail google.txt
+````
+
+## Ler 3 ultimas linhas de um arquivo
+
+````
+tail -n 3 google.txt
+````
+
+## Abrir e navegar pelo texto do arquivo no Terminal 
+
+````
+less google.txt
+````
