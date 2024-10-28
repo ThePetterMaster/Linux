@@ -101,13 +101,39 @@ mv mensagem.txt bemvindo.txt
 cp mensagem.txt bemvindo.txt
 ````
 
-## Compactando arquivos de um diretórios
-
-````
-zip -r work.zip workspace/
-````
 
 ## Copiando arquivos de um diretório para outro junto com os arquivos dentro dele
 ````
 cp -r projetos-java projetos-c#
 ````
+
+## Compactando arquivos de um diretórios (ZIP)
+
+````
+zip -r work.zip workspace/
+````
+
+Menos verboso:
+
+````
+zip -rq work.zip workspace/
+````
+
+ou
+
+````
+zip -r -q work.zip workspace/
+````
+
+## Descompactando arquivos de um diretórios (ZIP)
+
+````
+unzip work.zip 
+````
+
+Menos verboso:
+
+````
+unzip -q work.zip
+````
+
