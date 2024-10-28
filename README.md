@@ -137,3 +137,19 @@ Menos verboso:
 unzip -q work.zip
 ````
 
+## Compactando arquivos de um diretórios (TAR)
+
+O modificador -cz indica que o arquivo tar será criado (-c) e será compactado pelo zip(-z) usando o redirecionamento >. Uma observação interessante é que comando tar já é automaticamente recursivo.
+
+````
+tar -cz workspace > work.tar.gz
+````
+
+Mas não é muito bom ficarmos o tempo todo trabalhando com redirecionamento, é meio chato. Para isso o comando tar possui o modificador -f para podermos passar o nome do arquivo que queremos criar:
+
+````
+tar -czf work.tar.gz workspace/
+````
+
+
+
