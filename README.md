@@ -151,5 +151,23 @@ Mas não é muito bom ficarmos o tempo todo trabalhando com redirecionamento, é
 tar -czf work.tar.gz workspace/
 ````
 
+## Descompactando arquivos de um diretórios (TAR)
+
+-x de "extract"
+````
+tar -xz < work.tar.gz
+````
+
+ou
+
+````
+tar -xzf work.tar.gz
+````
+
+Mais verboso:
+
+````
+tar -vxzf work.tar.gz
+````
 
 
